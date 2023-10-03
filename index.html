@@ -127,14 +127,25 @@
           <h2 class="hero-title">What are we doing</h2>
           <ul class="hero-doing list">
             <li class="working">
-              <img src="./images/Rectangle3opt.jpg" alt="Work1" width="360" height="300" />
+              <picture>
+                <source srcset="./images/comp.jpg 1x,./images/comp2.jpg 2x">
+                <img src="./images/comp.jpg" alt="Work1" width="360" height="300" />
+             </picture>
             </li>
             <li class="working">
-              <img src="./images/Rectangle2opt.jpg" alt="work2" width="360" height="300" />
+              <picture>
+                <source srcset="./images/tel.jpg 1x,./images/tel2.jpg 2x">
+                <img src="./images/tel.jpg" alt="work2" width="360" height="300" />
+             </picture>
             </li>
+
             <li class="working">
-              <img src="./images/Rectangle1opt.jpg" alt="work3" width="360" height="300" />
-            </li>
+
+              <picture>
+                <source srcset="./images/rectangle1opt.jpg 1x,./images/rect-2.jpg 2x" >
+                <img src="./images/rectangle1opt.jpg" alt="work3" width="360" height="300" />
+              </picture>
+              </li>
           </ul>
         </div>
       </section>
@@ -145,7 +156,14 @@
           <h2 class="hero-title">Our Team</h2>
           <ul class="hero-team list">
             <li class="team-name">
-              <img src="./images/img-11.jpg" alt="Product Designer" width="264" />
+             
+            <picture>
+                <!-- <source srcset="./images/img-11.jpg 1x, ./images/1-2x.jpg 2x" media="(min-width: 1158px)">
+                <source srcset="./images/img-11.jpg 1x, ./images/1-2x.jpg 2x" media="(min-width: 768px)"> -->
+                <source srcset="./images/img-11.jpg 1x,./images/img-8-3.jpg 2x">
+                <img src="./images/img-11.jpg" alt="Product Designer" width="264" />
+              </picture>
+
               <div class="team-prof">
                 <h3 class="third-title">Mark Guerrero</h3>
                 <p class="hero-description">Product Designer</p>
@@ -153,6 +171,7 @@
                   <li class="team-social-item">
                     <a class="team-social-link" href="">
                       <svg class="team-social-icon" width="16" height="16">
+          
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
@@ -182,7 +201,12 @@
               </div>
             </li>
             <li class="team-name">
+
+              <picture>
+                <source srcset="./images/img-22.jpg 1x,./images/img-9-3.jpg 2x">
               <img src="./images/img-22.jpg" alt="Frontend Developer" width="264" />
+            </picture>
+
               <div class="team-prof">
                 <h3 class="third-title">Tom Ford</h3>
                 <p class="hero-description">Frontend Developer</p>
@@ -219,7 +243,12 @@
               </div>
             </li>
             <li class="team-name">
-              <img src="./images/img-44.jpg" alt="Marketing" width="264" />
+            
+              <picture>
+                <source srcset="./images/img-44.jpg 1x,./images/img-10-3.jpg 2x">
+                <img src="./images/img-44.jpg" alt="Marketing" width="264" />
+              </picture>
+
               <div class="team-prof">
                 <h3 class="third-title">Camila Garcia</h3>
                 <p class="hero-description">Marketing</p>
@@ -256,7 +285,12 @@
               </div>
             </li>
             <li class="team-name">
-              <img src="./images/img-33.jpg" alt="UI Designer" width="264" />
+             
+              <picture>
+                <source srcset="./images/img-33.jpg 1x,./images/img-11-3.jpg 2x">
+                <img src="./images/img-33.jpg" alt="UI Designer" width="264"/>
+              </picture>
+         
               <div class="team-prof">
                 <h3 class="third-title">Daniel Wilson</h3>
                 <p class="hero-description">UI Designer</p>
